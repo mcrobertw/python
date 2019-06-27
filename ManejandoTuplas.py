@@ -1,4 +1,4 @@
-#Manejando listas
+#Manejando tuplas
 L=(True,"Una Lista",[5,7])
 print(L[0])
 print(L[1])
