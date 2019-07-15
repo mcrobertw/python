@@ -3,7 +3,8 @@ try:
 	#http://feeds.cristalab.com/clab
 	#https://www.google.com/
 	#http://reddit.com
-	f=urllib2.urlopen("https://www.google.com/")
+	#http://congresorest.appspot.com/diputado
+	f=urllib2.urlopen("http://congresorest.appspot.com/diputado/")
 	print (f.read())
 	f.close()
 except urllib2.error.HTTPError as e:
